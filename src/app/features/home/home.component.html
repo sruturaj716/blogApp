@@ -1,0 +1,29 @@
+<!-- home.component.html -->
+<div class="container">
+    <h2>Welcome to the Home Page!</h2>
+  
+    <p>
+      Explore the latest blog posts and discover interesting content.
+    </p>
+  
+    <div class="featured-posts">
+      <h3>Featured Posts</h3>
+      <!-- Add a loop to display featured posts -->
+      <div *ngFor="let post of featuredPosts" class="post-card">
+        <h4>{{ post.title }}</h4>
+        <p>{{ post.summary }}</p>
+        <a [routerLink]="['/post', post.id]">Read more</a>
+      </div>
+    </div>
+  
+    <div class="latest-posts">
+      <h3>Latest Posts</h3>
+      <!-- Add a loop to display latest posts -->
+      <div *ngFor="let post of latestPosts" class="post-card">
+        <h4>{{ post.title }}</h4>
+        <p>{{ post.summary }}</p>
+        <a [routerLink]="['/post', post.id]">Read more</a>
+      </div>
+    </div>
+  </div>
+  
