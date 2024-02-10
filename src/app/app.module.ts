@@ -11,12 +11,18 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
 import {MatInputModule} from '@angular/material/input';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import { SidenavComponent } from './shared/components/sidenav/sidenav.component';
+import { FormsModule } from '@angular/forms';
+import { MatListModule } from '@angular/material/list';
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    SidenavComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +32,10 @@ import {MatInputModule} from '@angular/material/input';
     MatIconModule,
     MatToolbarModule,
     MatButtonModule,
-    MatInputModule
+    MatInputModule,
+    MatSidenavModule,
+    FormsModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
