@@ -53,3 +53,10 @@
     float: right;
     margin-left: 2rem;
 }
+
+:host ::ng-deep .app-name {
+    text-decoration:none;
+    font-size: x-large;
+    font-weight: 500;
+    color: black;
+}
