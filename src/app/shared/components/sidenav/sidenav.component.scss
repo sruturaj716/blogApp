@@ -25,3 +25,6 @@
 .mat-list-item:hover {
     background-color: transparent !important;
 }
+:host ::ng-deep .close-btn {
+    float: inline-end;
+}

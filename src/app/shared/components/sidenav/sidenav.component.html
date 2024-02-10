@@ -1,5 +1,6 @@
 <mat-sidenav-container hasBackdrop="true" (backdropClick)="handleBackdropClick()">
     <mat-sidenav [opened]="openSideNav" mode="over" [fixedInViewport]="true" position="end"  autoFocus="false">
+        <button mat-button  class="close-btn" (click)="handleBackdropClick()"><mat-icon>close</mat-icon></button>
         <mat-nav-list >
             <a mat-list-item routerLink="/home"> <span class="link-style">Home</span></a>
             <a mat-list-item routerLink="/categories" ><span class="link-style">Categories</span></a>
