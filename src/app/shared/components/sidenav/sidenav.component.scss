@@ -25,6 +25,46 @@
 .mat-list-item:hover {
     background-color: transparent !important;
 }
+
 :host ::ng-deep .close-btn {
     float: inline-end;
+}
+
+:host ::ng-deep .mat-mdc-icon-button.mat-mdc-button-base {
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+}
+
+.arrow-button {
+    background: none;
+    border: none;
+}
+
+@keyframes spin-down {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes spin-up {
+    from {
+        transform: rotate(180deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+.spin-up {
+    animation: spin-up 0.3s linear;
+}
+
+.spin-down {
+    animation: spin-down 0.3s linear;
 }
