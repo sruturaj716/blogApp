@@ -1,11 +1,11 @@
 <mat-sidenav-container hasBackdrop="true" (backdropClick)="handleBackdropClick()">
     <mat-sidenav [opened]="openSideNav" mode="over" [fixedInViewport]="true" position="end" autoFocus="false">
         <button mat-button class="close-btn" (click)="handleBackdropClick()"><mat-icon>close</mat-icon></button>
-        <mat-nav-list>
+        <mat-nav-list style="margin-left: 10px;">
             <a mat-list-item routerLink="/home"> <span class="link-style">Home</span></a>
             <mat-list-item>
                 <span class="link-style">Categories</span>
-                <button mat-icon-button (click)="onCategories()" style="margin-left: 2rem;" class="arrow-button">
+                <button mat-icon-button (click)="onCategories()" style="margin-left: 4rem;" class="arrow-button">
                     <mat-icon [class.spin-up]="arrowState === 'down' && isClicked"
                         [class.spin-down]="arrowState === 'up' && isClicked">
                         {{showCategories ? 'keyboard_arrow_up' : 'keyboard_arrow_down' }}
