@@ -1,0 +1,52 @@
+.main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    gap: 10px;
+    overflow: hidden;
+}
+
+.img{
+    height: 55vh;
+    width: 30%;
+    background-color: red;
+    flex-shrink: 0; 
+    border-radius: 8px;
+}
+
+.img img {
+    display: block; 
+    max-width: 100%;
+}
+
+.post-info {
+    height: 55vh;
+    width: 68%;
+    // background-color: aliceblue; 
+    overflow: hidden; 
+}
+
+.post-info-card{
+    margin-left: 2rem;
+}
+
+.categories {
+    margin-top: 4rem;
+}
+
+.post-info-card h1 {
+  font-size: 3vw;
+}
+
+:host ::ng-deep .mat-mdc-icon-button.mat-mdc-button-base {
+  width: 40px;
+  height: 40px;
+  padding: 3px;
+  border-radius: 50%;
+}
+
+.btn-slide{
+  background-color: #edf0f5;
+}

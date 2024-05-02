@@ -1,0 +1,33 @@
+
+{
+    "homeSliderCardData" : [
+        {   
+            "id":"1",
+            "categoryType": "Business",
+            "date": "July 2, 2020",
+            "posttitle": "Your most unhappy customers are your greatest source of learning.",
+            "summary": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."
+        },
+        {
+            "id":"2",
+            "categoryType": "Travels",
+            "date": "July 2, 2020",
+            "posttitle": "Traveling the world: An adventure of a lifetime.",
+            "summary": "Discover the beauty of our planet and embark on an unforgettable journey around the globe. From majestic mountains to pristine beaches, there's so much to explore and experience."
+        },
+        {
+            "id":"3",
+            "categoryType": "Cars and Bikes",
+            "date": "July 2, 2020",
+            "posttitle": "The thrill of the open road: Exploring the world on two wheels.",
+            "summary": "Feel the wind in your hair and the freedom of the open road as you embark on a thrilling adventure on your motorcycle. From scenic countryside routes to adrenaline-fueled track days, there's something for every rider."
+        },
+        {
+            "id":"4",
+            "categoryType": "Technology",
+            "date": "July 2, 2020",
+            "posttitle": "The future is now: Exploring the latest advancements in technology.",
+            "summary": "From artificial intelligence to virtual reality, the future of technology is here. Discover how the latest innovations are shaping our world and revolutionizing the way we live, work, and communicate."
+        }
+    ]
+}

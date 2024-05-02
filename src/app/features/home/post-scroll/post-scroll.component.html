@@ -1,0 +1,23 @@
+<div class="main" #postCard>
+    <ng-container *ngFor="let item of postInfo">
+        <div>
+            <button mat-icon-button class="btn-slide" (click)="OnSlide('left',item)">
+                <mat-icon>chevron_left</mat-icon>
+            </button>
+        </div>
+        <div class="img">
+        </div>
+        <div class="post-info" >
+            <div class="post-info-card" >
+                <h4 class="categories">{{item.categoryType}}<span>date - {{item.date}}</span></h4>
+                <h1>{{item.posttitle}}</h1>
+                <p>{{item.summary}}</p>
+            </div>
+        </div>
+        <div >
+            <button mat-icon-button class="btn-slide" (click)="OnSlide('right',item)">
+                <mat-icon >chevron_right</mat-icon>
+            </button>
+        </div>
+    </ng-container>
+</div>
