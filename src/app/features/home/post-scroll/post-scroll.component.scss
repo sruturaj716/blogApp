@@ -21,6 +21,10 @@
     max-width: 100%;
 }
 
+.img:hover {
+  transform: translateY(-7px);
+}
+
 .post-info {
     height: 55vh;
     width: 68%;

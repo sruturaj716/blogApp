@@ -1,0 +1,52 @@
+{
+    "postGridData": [
+        {
+            "id": "1",
+            "categoryType": "Fashion",
+            "date": "April 30, 2023",
+            "posttitle": "Trending Fashion Styles for the Season",
+            "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "writername": "David Wilson"
+        },
+        {
+            "id": "2",
+            "categoryType": "Technology",
+            "date": "January 15, 2021",
+            "posttitle": "The future of technology is here!",
+            "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "writername": "Alice Smith"
+        },
+        {
+            "id": "3",
+            "categoryType": "Health",
+            "date": "March 8, 2022",
+            "posttitle": "10 Tips for a Healthy Lifestyle",
+            "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "writername": "John Doe"
+        },
+        {
+            "id": "4",
+            "categoryType": "Travel",
+            "date": "August 20, 2023",
+            "posttitle": "Explore the Hidden Gems of Europe",
+            "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "writername": "Emily Jones"
+        },
+        {
+            "id": "5",
+            "categoryType": "Food",
+            "date": "June 5, 2024",
+            "posttitle": "Delicious Recipes for Every Occasion",
+            "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "writername": "Michael Brown"
+        },
+        {
+            "id": "6",
+            "categoryType": "Sports",
+            "date": "November 12, 2021",
+            "posttitle": "Breaking Records in the World of Sports",
+            "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "writername": "Sarah Johnson"
+        }
+    ]
+}

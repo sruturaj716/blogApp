@@ -1,6 +1,5 @@
-import { AfterViewInit, Component, ElementRef, OnInit, ViewChild, Renderer2 } from '@angular/core';
-import { CategoriesComponent } from 'src/app/features/categories/categories.component';
-import data from 'src/app/shared/data/home-component-data.json'
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import data from 'src/app/shared/data/home-card-data.json'
 
 @Component({
   selector: 'app-post-scroll',

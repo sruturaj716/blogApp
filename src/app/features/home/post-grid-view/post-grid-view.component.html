@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="card-grid">
+    <ng-container *ngFor="let post of postsInfo">
+      <div class="card-style">
+        <div class="card-img"></div>
+
+        <div class="card-content">
+          <h4 class="categories">{{post.categoryType}}<span> - {{post.date}}</span></h4>
+          <h5>{{post.posttitle}}</h5>
+          <p>{{post.summary}}</p>
+        </div>
+
+        <div class="card-bottom">
+          <h5>{{post.writername}}</h5>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</div>

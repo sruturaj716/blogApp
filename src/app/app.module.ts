@@ -16,6 +16,7 @@ import { SidenavComponent } from './shared/components/sidenav/sidenav.component'
 import { FormsModule } from '@angular/forms';
 import { MatListModule } from '@angular/material/list';
 import { PostScrollComponent } from './features/home/post-scroll/post-scroll.component';
+import { PostGridViewComponent } from './features/home/post-grid-view/post-grid-view.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { PostScrollComponent } from './features/home/post-scroll/post-scroll.com
     FooterComponent,
     HomeComponent,
     SidenavComponent,
-    PostScrollComponent
+    PostScrollComponent,
+    PostGridViewComponent
   ],
   imports: [
     BrowserModule,
