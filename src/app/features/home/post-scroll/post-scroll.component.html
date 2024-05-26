@@ -1,4 +1,4 @@
-<div class="main" #postCard>
+<div class="main">
     <ng-container *ngFor="let post of postInfo">
         <div>
             <button mat-icon-button class="btn-slide" (click)="OnSlide('left',post)">
@@ -6,17 +6,18 @@
             </button>
         </div>
         <div class="img">
+            <img [src]="currentPostImage">
         </div>
-        <div class="post-info" >
-            <div class="post-info-card" >
+        <div class="post-info">
+            <div class="post-info-card">
                 <h4 class="categories">{{post.categoryType}}<span> - {{post.date}}</span></h4>
                 <h1>{{post.posttitle}}</h1>
                 <p>{{post.summary}}</p>
             </div>
         </div>
-        <div >
+        <div>
             <button mat-icon-button class="btn-slide" (click)="OnSlide('right',post)">
-                <mat-icon >chevron_right</mat-icon>
+                <mat-icon>chevron_right</mat-icon>
             </button>
         </div>
     </ng-container>
