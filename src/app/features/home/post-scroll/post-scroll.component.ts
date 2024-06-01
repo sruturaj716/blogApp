@@ -13,10 +13,10 @@ export class PostScrollComponent implements OnInit {
 
   constructor() {
     this.postImages = [
-      { id: 0, img: 'assets/post_lg_1.jpg.webp' },
-      { id: 1, img: 'assets/post_lg_2.jpg.webp' },
-      { id: 2, img: 'assets/post_lg_3.jpg.webp' },
-      { id: 3, img: 'assets/post_lg_4.jpg.webp' }];
+      { id: 0, img: 'post_lg_1.jpg' },
+      { id: 1, img: 'post_lg_2.jpg' },
+      { id: 2, img: 'post_lg_3.jpg' },
+      { id: 3, img: 'post_lg_4.jpg' }];
   }
 
   ngOnInit(): void {

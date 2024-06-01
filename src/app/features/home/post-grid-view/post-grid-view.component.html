@@ -2,7 +2,9 @@
   <div class="card-grid">
     <ng-container *ngFor="let post of postsInfo">
       <div class="card-style">
-        <div class="card-img"></div>
+        <div class="card-img">
+          <img [src]="'assets/post-grid-images/'+ post.image">
+        </div>
 
         <div class="card-content">
           <h4 class="categories">{{post.categoryType}}<span> - {{post.date}}</span></h4>
