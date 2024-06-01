@@ -1,0 +1,39 @@
+<ng-template #postCardTemplate let-post>
+    <div class="card-grid">
+        <div class="card-img-content">
+            <div class="card-img">
+                <img [src]="'assets/post-grid-images/'+ post.image">
+            </div>
+            <div class="card-content">
+                <label class="post-categoryType">{{post.categoryType}}<span> - {{post.date}}</span></label>
+                <label class="post-title">{{post.posttitle}}</label>
+            </div>
+        </div>
+        <div class="card-bottom">
+            <label>{{post.writername}}</label>
+        </div>
+    </div>
+</ng-template>
+
+<div class="container">
+    <div class="category-grid-1">
+        <div class="category-grid-content">
+            <div class="category-heading">
+                <h2>{{firstCategoryType}}</h2>
+            </div>
+            <ng-container *ngFor="let post of firstCategoryData">
+                <ng-container *ngTemplateOutlet="postCardTemplate; context: { $implicit: post}"></ng-container>
+            </ng-container>
+        </div>
+    </div>
+    <div class="category-grid-2">
+        <div class="category-grid-content">
+            <div class="category-heading">
+                <h2>{{secondCategoryType}}</h2>
+            </div>
+            <ng-container *ngFor="let post of secondCategoryData">
+                <ng-container *ngTemplateOutlet="postCardTemplate; context: { $implicit: post}"></ng-container>
+            </ng-container>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,60 @@
+{
+    "firstcategory": [
+        {
+            "id": "1",
+            "categoryType": "Technology",
+            "date": "April 30, 2023",
+            "image": "post-grid_1.jpg",
+            "posttitle": "Explore the Latest Fashion Trends and Must-Have Looks for the Upcoming Season",
+            "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "writername": "David Wilson"
+        },
+        {
+            "id": "2",
+            "categoryType": "Technology",
+            "date": "January 15, 2021",
+            "image": "post-grid_2.jpg",
+            "posttitle": "Dive into the Exciting Innovations and Advancements Shaping Our World",
+            "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "writername": "Alice Smith"
+        },
+        {
+            "id": "3",
+            "categoryType": "Technology",
+            "date": "March 8, 2022",
+            "image": "post-grid_3.jpg",
+            "posttitle": "Transform Your Life with These Essential Health and Wellness Insights",
+            "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "writername": "John Doe"
+        }
+    ],
+    "secondcategory": [
+        {
+            "id": "1",
+            "categoryType": "Environment",
+            "date": "May 10, 2024",
+            "image": "post-grid_4.jpg",
+            "posttitle": "Uncover the Hottest Sounds and Musical Genres Dominating the Airwaves This Year",
+            "summary": "Discover the hottest music trends and genres dominating the charts in 2024.",
+            "writername": "Laura Martinez"
+        },
+        {
+            "id": "2",
+            "categoryType": "Environment",
+            "date": "February 22, 2022",
+            "image": "post-grid_5.jpg",
+            "posttitle": "Delve into the Revolutionary Findings Redefining Our Understanding of the Universe",
+            "summary": "An in-depth look at the latest scientific discoveries that are changing our understanding of the world.",
+            "writername": "James Robinson"
+        },
+        {
+            "id": "3",
+            "categoryType": "Environment",
+            "date": "July 18, 2023",
+            "image": "post-grid_1.jpg",
+            "posttitle": "Discover the Cutting-Edge Projects and Initiatives Driving Positive Change for Our Planet",
+            "summary": "Learn about the innovative initiatives being taken to protect our environment.",
+            "writername": "Sophia Clark"
+        }
+    ]
+}

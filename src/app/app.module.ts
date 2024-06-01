@@ -17,6 +17,7 @@ import { FormsModule } from '@angular/forms';
 import { MatListModule } from '@angular/material/list';
 import { PostScrollComponent } from './features/home/post-scroll/post-scroll.component';
 import { PostGridViewComponent } from './features/home/post-grid-view/post-grid-view.component';
+import { PostCategoriesgridViewComponent } from './features/home/post-categoriesgrid-view/post-categoriesgrid-view.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { PostGridViewComponent } from './features/home/post-grid-view/post-grid-
     HomeComponent,
     SidenavComponent,
     PostScrollComponent,
-    PostGridViewComponent
+    PostGridViewComponent,
+    PostCategoriesgridViewComponent
   ],
   imports: [
     BrowserModule,
