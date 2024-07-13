@@ -5,11 +5,11 @@
                 <mat-icon>chevron_left</mat-icon>
             </button>
         </div>
-        <div class="img">
+        <div class="img" (click)="viewPost(post.id)">
             <img [src]="'assets/post-scroll-images/'+ currentPostImage">
         </div>
         <div class="post-info">
-            <div class="post-info-card">
+            <div class="post-info-card" (click)="viewPost(post.id)">
                 <h4 class="categories">{{post.categoryType}}<span> - {{post.date}}</span></h4>
                 <h1>{{post.posttitle}}</h1>
                 <p>{{post.summary}}</p>

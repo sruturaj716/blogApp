@@ -1,1 +1,19 @@
-<p>post works!</p>
+<div class="main">
+    <ng-container *ngFor="let post of postInfo">
+        <div class="post-container">
+            <div class="post-header">
+                {{post.posttitle}}
+            </div>
+            <div class="post-img-container">
+                <img [src]="imgpath" class="post-img">
+            </div>
+            <div class="post-content">
+                {{post.content}}
+            </div>
+            <!-- <div [innerHTML]="post.content"></div> -->
+            <div class="share-post">
+                Share
+            </div>
+        </div>
+    </ng-container>
+</div>

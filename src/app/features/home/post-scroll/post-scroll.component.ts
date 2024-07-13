@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import data from 'src/app/shared/data/home-card-data.json'
+import { Router } from '@angular/router';
+import data from 'src/app/shared/data/home-card-data.json';
 
 @Component({
   selector: 'app-post-scroll',
@@ -11,7 +12,8 @@ export class PostScrollComponent implements OnInit {
   public postImages: any[] = [];
   public currentPostImage: string = '';
 
-  constructor() {
+  constructor(private router:Router) {
+    
     this.postImages = [
       { id: 0, img: 'post_lg_1.jpg' },
       { id: 1, img: 'post_lg_2.jpg' },
@@ -39,5 +41,9 @@ export class PostScrollComponent implements OnInit {
 
   public getCurrentPostimage(currentIndex: number): string {
     return this.postImages.filter(images => images.id == currentIndex).map(image => image.img).toString();
+  }
+
+  public viewPost(postId : number){
+    this.router.navigate(['/post',postId]);
   }
 }

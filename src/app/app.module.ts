@@ -19,6 +19,7 @@ import { PostScrollComponent } from './features/home/post-scroll/post-scroll.com
 import { PostGridViewComponent } from './features/home/post-grid-view/post-grid-view.component';
 import { PostCategoriesgridViewComponent } from './features/home/post-categoriesgrid-view/post-categoriesgrid-view.component';
 import {MatCardModule} from '@angular/material/card';
+import { PostModule } from './features/post/post.module';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import {MatCardModule} from '@angular/material/card';
     AppRoutingModule,
     RouterModule,
     BrowserAnimationsModule,
+    PostModule,
     MatIconModule,
     MatToolbarModule,
     MatButtonModule,
