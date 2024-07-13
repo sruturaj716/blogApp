@@ -18,6 +18,7 @@ import { MatListModule } from '@angular/material/list';
 import { PostScrollComponent } from './features/home/post-scroll/post-scroll.component';
 import { PostGridViewComponent } from './features/home/post-grid-view/post-grid-view.component';
 import { PostCategoriesgridViewComponent } from './features/home/post-categoriesgrid-view/post-categoriesgrid-view.component';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { PostCategoriesgridViewComponent } from './features/home/post-categories
     MatInputModule,
     MatSidenavModule,
     FormsModule,
-    MatListModule
+    MatListModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
