@@ -5,12 +5,12 @@
                 {{post.posttitle}}
             </div>
             <div class="post-img-container">
-                <img [src]="imgpath" class="post-img">
+                <img [src]="'assets/post-scroll-images/'+ post.image" class="post-img">
             </div>
             <div class="post-content">
                 {{post.content}}
-            </div>
-            <!-- <div [innerHTML]="post.content"></div> -->
+            </div><br>
+            <hr class="solid">
             <div class="share-post">
                 Share
             </div>
