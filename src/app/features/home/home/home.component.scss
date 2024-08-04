@@ -1,17 +1,23 @@
-.page1 {
-  height: 100vh;
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.page {
   width: 100%;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
+}
+
+.page1 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  position: relative;
-  z-index: 1;
-  // background-color: aqua;
 }
 
 .page1 h1 {
-  font-size: 2vw;
+  font-size: 2rem;
   text-transform: uppercase;
   font-weight: 900;
   margin-top: 3rem;
@@ -19,29 +25,20 @@
 
 .container {
   width: 93%;
-  max-width: 93%;
-  height: 73vh;
-  // background-color: black;
+  max-width: 100%;
 }
 
 .page2 {
-  height: 125vh;
-  width: 100%;
-  position: relative;
-  z-index: 2; 
-  // background-color: rgb(56, 215, 215);
+  padding-top: 6rem;
 }
+// .page2 {
+//   background-color: rgb(56, 215, 215); /* Uncomment for background color */
+// }
 
-.page3 {
-  height: 80vh;
-  width: 100%;
-  position: relative;
-  z-index: 3; 
-  // background-color: rgb(66, 119, 147);
-}
+// .page3 {
+//   background-color: rgb(66, 119, 147); /* Uncomment for background color */
+// }
 
-.page4 {
-  height: 50vh;
-  width: 100%;
-  // background-color: rgb(183, 220, 37);
-}
+// .page4 {
+//   background-color: rgb(183, 220, 37); /* Uncomment for background color */
+// }
