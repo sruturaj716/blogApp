@@ -19,7 +19,7 @@
     padding-top: 20px;
 }
 
-.post-img-container{
+.post-img-container {
     display: flex;
     justify-content: center;
     padding-top: 20px;
@@ -45,4 +45,25 @@ hr.solid {
 
 .share-post {
     @extend .post-content;
+    padding-top: 2rem;
+}
+
+.share-links {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 8px;
+}
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-twitter {
+    color: #1da1f2;
+}
+
+.fa-instagram {
+    color: #e4405f;
 }
