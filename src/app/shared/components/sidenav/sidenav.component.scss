@@ -68,3 +68,13 @@
 .spin-down {
     animation: spin-down 0.3s linear;
 }
+
+.list-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.categories-list {
+    padding-left: 38px;
+}
