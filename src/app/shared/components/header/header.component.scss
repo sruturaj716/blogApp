@@ -24,6 +24,69 @@
     margin-top: 30px;
 }
 
+.app-name {
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: 500;
+    color: black;
+}
+
+@media (max-width:786px) {
+    .search {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .colname {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+        margin-right: 0rem;
+        margin-bottom: 10px;
+    }
+
+    .menu {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    mat-toolbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mat-toolbar-row,
+    .mat-toolbar-single-row {
+        height: auto;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 769px) {
+
+    /* Desktop view: Keep original styles */
+    .search {
+        width: 15%;
+        margin-left: 3rem;
+        margin-top: 30px;
+    }
+
+    .colname {
+        width: 95%;
+        text-align: center;
+        margin-right: 4rem;
+    }
+
+    .menu {
+        width: 20%;
+        float: right;
+        margin-left: 2rem;
+    }
+}
+
 :host ::ng-deep .mat-mdc-text-field-wrapper {
     height: 40px;
     flex: auto;
@@ -31,9 +94,10 @@
 
 :host ::ng-deep .mdc-text-field--filled:not(.mdc-text-field--disabled) {
     background-color: white;
-} 
+}
 
-:host ::ng-deep .mat-mdc-form-field-icon-prefix>.mat-icon, .mat-mdc-form-field-icon-suffix>.mat-icon {
+:host ::ng-deep .mat-mdc-form-field-icon-prefix>.mat-icon,
+.mat-mdc-form-field-icon-suffix>.mat-icon {
     padding: 6px;
     margin-bottom: 6px;
 }
@@ -41,23 +105,4 @@
 :host ::ng-deep .mat-mdc-text-field-wrapper:not(.mdc-text-field--outlined) .mat-mdc-form-field-infix {
     padding-top: 15px !important;
     padding-bottom: 11px !important;
-}
-
-:host ::ng-deep .colname {
-    width: 95%;
-    text-align: center;
-    margin-right: 4rem;
-}
-
-:host ::ng-deep .menu {
-    width: 20%;
-    float: right;
-    margin-left: 2rem;
-}
-
-:host ::ng-deep .app-name {
-    text-decoration:none;
-    font-size: x-large;
-    font-weight: 500;
-    color: black;
 }
