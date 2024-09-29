@@ -16,24 +16,26 @@
 </ng-template>
 
 <div class="container">
-    <div class="category-grid-1">
-        <div class="category-grid-content">
-            <div class="category-heading">
-                <h2>{{firstCategoryType}}</h2>
+    <div class="category">
+        <div class="category-grid-1">
+            <div class="category-grid-content">
+                <div class="category-heading">
+                    <h2>{{firstCategoryType}}</h2>
+                </div>
+                <ng-container *ngFor="let post of firstCategoryData">
+                    <ng-container *ngTemplateOutlet="postCardTemplate; context: { $implicit: post}"></ng-container>
+                </ng-container>
             </div>
-            <ng-container *ngFor="let post of firstCategoryData">
-                <ng-container *ngTemplateOutlet="postCardTemplate; context: { $implicit: post}"></ng-container>
-            </ng-container>
         </div>
-    </div>
-    <div class="category-grid-2">
-        <div class="category-grid-content">
-            <div class="category-heading">
-                <h2>{{secondCategoryType}}</h2>
+        <div class="category-grid-2">
+            <div class="category-grid-content">
+                <div class="category-heading">
+                    <h2>{{secondCategoryType}}</h2>
+                </div>
+                <ng-container *ngFor="let post of secondCategoryData">
+                    <ng-container *ngTemplateOutlet="postCardTemplate; context: { $implicit: post}"></ng-container>
+                </ng-container>
             </div>
-            <ng-container *ngFor="let post of secondCategoryData">
-                <ng-container *ngTemplateOutlet="postCardTemplate; context: { $implicit: post}"></ng-container>
-            </ng-container>
         </div>
     </div>
 </div>

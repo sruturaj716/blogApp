@@ -12,5 +12,6 @@ export class PostGridViewComponent implements OnInit {
 
   ngOnInit(): void {
       this.postsInfo = data.postGridData;
+      console.log(window.innerWidth);
   }
 }
