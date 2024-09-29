@@ -3,29 +3,22 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './shared/components/header/header.component';
-import { FooterComponent } from './shared/components/footer/footer.component';
 import { RouterModule } from '@angular/router';
 import { HomeComponent } from './features/home/home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatIconModule} from '@angular/material/icon';
-import {MatToolbarModule} from '@angular/material/toolbar';
-import {MatButtonModule} from '@angular/material/button';
-import {MatInputModule} from '@angular/material/input';
-import {MatSidenavModule} from '@angular/material/sidenav';
 import { SidenavComponent } from './shared/components/sidenav/sidenav.component';
 import { FormsModule } from '@angular/forms';
-import { MatListModule } from '@angular/material/list';
 import { PostScrollComponent } from './features/home/post-scroll/post-scroll.component';
 import { PostGridViewComponent } from './features/home/post-grid-view/post-grid-view.component';
 import { PostCategoriesgridViewComponent } from './features/home/post-categoriesgrid-view/post-categoriesgrid-view.component';
-import {MatCardModule} from '@angular/material/card';
 import { PostModule } from './features/post/post.module';
+import { SharedModule } from './shared/module/shared/shared.module';
+import { MaterialModule } from './shared/module/material/material.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent,
     HomeComponent,
     SidenavComponent,
     PostScrollComponent,
@@ -38,14 +31,9 @@ import { PostModule } from './features/post/post.module';
     RouterModule,
     BrowserAnimationsModule,
     PostModule,
-    MatIconModule,
-    MatToolbarModule,
-    MatButtonModule,
-    MatInputModule,
-    MatSidenavModule,
     FormsModule,
-    MatListModule,
-    MatCardModule
+    SharedModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
