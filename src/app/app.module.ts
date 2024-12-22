@@ -14,6 +14,7 @@ import { PostCategoriesgridViewComponent } from './features/home/post-categories
 import { PostModule } from './features/post/post.module';
 import { SharedModule } from './shared/module/shared/shared.module';
 import { MaterialModule } from './shared/module/material/material.module';
+import { DataService } from './shared/services/data.service';
 
 @NgModule({
   declarations: [
@@ -33,9 +34,9 @@ import { MaterialModule } from './shared/module/material/material.module';
     PostModule,
     FormsModule,
     SharedModule,
-    MaterialModule
-  ],
-  providers: [],
+    MaterialModule,
+],
+  providers: [DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
