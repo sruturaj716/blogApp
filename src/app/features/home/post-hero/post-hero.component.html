@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="main">
+        <div class="page-titles">
+            <div class="welcome-heading">Welcome</div>
+            <div class="page-heading">Let's Explore the Technology's!</div>
+        </div>
+        <div class="technologies-container">
+            <div class="box" *ngFor="let item of technologies">
+                <div class="icon-container">
+                    <i [ngClass]="item.icon" class="icon" [style.color]="item.color"></i>
+                    <div *ngIf="item.name === 'TypeScript'">
+                        <img [src]="item.src" alt="TypeScript Logo" class="ts-iocn">
+                    </div>
+                    <strong> {{item.name}}</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

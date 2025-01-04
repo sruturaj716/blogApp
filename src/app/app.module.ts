@@ -15,6 +15,7 @@ import { PostModule } from './features/post/post.module';
 import { SharedModule } from './shared/module/shared/shared.module';
 import { MaterialModule } from './shared/module/material/material.module';
 import { DataService } from './shared/services/data.service';
+import { PostHeroComponent } from "./features/home/post-hero/post-hero.component";
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { DataService } from './shared/services/data.service';
     FormsModule,
     SharedModule,
     MaterialModule,
+    PostHeroComponent
 ],
   providers: [DataService],
   bootstrap: [AppComponent]

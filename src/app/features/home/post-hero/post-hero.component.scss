@@ -1,0 +1,67 @@
+.container {
+    height: 26rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // background-color: aqua;
+}
+
+.main {
+    height: 24rem;
+    width: 87%;
+    display: flex;
+    flex-direction: column;
+    // background-color: red;
+}
+
+.page-titles {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 80px;
+}
+
+.welcome-heading {
+    font-size: 90px;
+    background-color: red;
+    width: 14rem;
+    border-radius: 5px;
+}
+
+.technologies-container {
+    width: 60%;
+    height: 9rem;
+    margin-top: 1rem;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: b;
+    border-radius: 5px;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    font-size: 48px
+}
+
+.ts-iocn {
+    width: 43px;
+    height: 47px;
+}
+
+.box {
+    width: 8rem;
+    height: 7.8rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    // background-color: blueviolet;
+}
